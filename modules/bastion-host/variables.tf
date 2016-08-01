@@ -1,0 +1,10 @@
+variable "namespace" {}
+variable "vpc_id" {}
+variable "allowed_ip_addresses" {}
+variable "key_name" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "public_subnets" {}
+variable "bastion_host_domain_name" {}
+variable "cidr_block" {}
+variable "public_hosted_zone_id" {}

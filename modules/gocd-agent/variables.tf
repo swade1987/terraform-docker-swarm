@@ -1,0 +1,15 @@
+variable "namespace" {}
+variable "name" {}
+variable "vpc_id" {}
+variable "public_subnets" {}
+variable "private_subnets" {}
+variable "ingress_cidr_blocks" {}
+variable "key_name" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "server_dns" {}
+variable "minimum_number_of_instances" {}
+variable "number_of_instances" {}
+variable "default_region" {}
+variable "allow_bastion_security_group" {}
+variable "gocd_server_security_group" {}
