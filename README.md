@@ -4,10 +4,20 @@ The repository contains the Terraform configuration for running Docker Swarm in 
 
 # IMPORTANT
 
-## The following command must be ran from within EACH "environment directory" to make sure your state file gets upload to S3.
+## Configure Remote State to sync with S3
 
-1. From the directory "environments/globals" execute the command "make configure".
+```bash
+$ make configure
+```
 
-1. From the directory "environments/core-services" execute the command "make configure".
+## Plan infrastructure changes
 
-1. From the directory "environments/ci" execute the command "make configure".
+```bash
+$ make plan
+```
+
+## Apply infrastructure changes
+
+```bash
+$ make apply
+```
