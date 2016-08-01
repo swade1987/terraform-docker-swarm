@@ -22,8 +22,8 @@ variable "private_hosted_zone" {
     default = "example.private"
 }
 
-variable "pds_adsl_ip_address" {
-    default = "82.35.29.203/32"   #"176.251.241.74/32"
+variable "allowed_ip_address" {
+    default = "225.225.255.255/32"
 }
 
 variable "bastion_host_ami" {

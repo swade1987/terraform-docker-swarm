@@ -19,7 +19,7 @@ module "bastion-host" {
     source = "../../modules/bastion-host"
     ami = "${var.bastion_host_ami}"
     vpc_id = "${module.vpc.vpc_id}"
-    allowed_ip_addresses = "${var.pds_adsl_ip_address}"
+    allowed_ip_addresses = "${var.allowed_ip_address}"
     instance_type = "t2.micro"
     key_name = "${var.bastion_key_name}"
     public_subnets = "${module.vpc.public_subnets}"
