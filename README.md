@@ -2,7 +2,9 @@
 
 The repository contains the Terraform configuration for running Docker Swarm in AWS.
 
-# IMPORTANT
+# Usage
+
+Browse to environments/ci
 
 ## Configure Remote State to sync with S3
 
